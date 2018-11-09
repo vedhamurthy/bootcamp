@@ -1,4 +1,4 @@
 frontend:
   release:
-    url: http://jenkins:8080/job/Package%20Frontend/lastSuccessfulBuild/artifact/distribution/frontend-0.7.1.zip
+    url: http://jenkins:8080/job/frontend-pipeline/2/artifact/distribution/frontend-1.0.0.zip
     version: 0.7.1
