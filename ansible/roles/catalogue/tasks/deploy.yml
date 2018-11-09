@@ -8,8 +8,8 @@
 - name: copy supervisord script for catalogue
   template:
     src: catalogue.supervisor.conf.j2
-    dest:/etc/supervisor/conf.d/catalogue.conf
-    mode:0755
+    dest: /etc/supervisor/conf.d/catalogue.conf
+    mode: 0755
   notify: restart supervisor
 
 - meta: flush_handlers
