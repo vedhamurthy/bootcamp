@@ -5,4 +5,4 @@ additional:
     - maven
 
 carts:
-  artifact: http://jenkins:8080/view/carts/job/Carts%20Package/lastSuccessfulBuild/artifact/target/carts.jar
+  artifact: http://jenkins:8080/job/carts-pipeline/lastSuccessfulBuild/artifact/target/carts.jar
